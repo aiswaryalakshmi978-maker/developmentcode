@@ -1,13 +1,18 @@
 import mysql.connector
 
+
 # merge conflict
+
+
+# addded comment
 
 conn = mysql.connector.connect(
     host="mysql-service",
     port=3306,
     user="root",
-    password="rootpassword",
-    database="testdb"
+    #assword="rootpassword",
+    password ="MySQL@123"
+    database="mysqldb"
 )
 
 cursor = conn.cursor()
