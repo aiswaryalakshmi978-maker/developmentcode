@@ -1,5 +1,7 @@
 import mysql.connector
 
+# merge conflict
+
 conn = mysql.connector.connect(
     host="mysql-service",
     port=3306,
