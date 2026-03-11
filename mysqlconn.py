@@ -4,7 +4,7 @@ conn = mysql.connector.connect(
     host="mysql-service",
     port=3306,
     user="root",
-    #assword="rootpassword",
+    #password="rootpassword",
     password ="MySQL@123"
     database="mysqldb"
 )
